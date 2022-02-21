@@ -1,4 +1,5 @@
 # People Manager
+By Jess Bermudes
 
 ## How to Build
 
