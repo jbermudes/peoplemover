@@ -37,10 +37,12 @@ create, read, update, and delete records as indicated by the links.
 
 This webapp is built using Ruby on Rails 7 with minimal modifications to the
 sample Rails scaffolding in order to accomplish the requirements of the task.
+
 This solution includes basic CRUD functionality over an HTTP REST API including
 some basic server-side validations for the presence and format of the various Person
 attributes. 
 
+This solution uses Rails' development environment features for execution including the Puma Simple HTTP Web Server and the SQLite3 database.
 
 
 ## Incomplete Functionality
