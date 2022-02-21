@@ -28,6 +28,8 @@ Launch the docker container with:
 
     $ docker-compose up
 
+When you are finished evaluating the application, close the server with Ctrl+C
+
 ## How to Test
 
 Open a browser and navigate to `http://localhost:3000`
