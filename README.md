@@ -20,6 +20,7 @@ Set up the databases:
 ## How to Run
 
 Launch the docker container with:
+
     $ docker-compose up
 
 ## How to Test
@@ -62,4 +63,13 @@ A few assumptions were taken:
 
 * The email validation is as generous as it can get. It only checks for the
   presence of printable characters with an @ sign somewhere in the middle
+
+## References Used
+
+Dockerize Rails Application: https://www.codewithjason.com/dockerize-rails-application/
+StackOverflow "Cannot connect to Docker Daemon on macOS": https://stackoverflow.com/questions/44084846/cannot-connect-to-the-docker-daemon-on-macos
+Rails ActiveRecord Validations: https://guides.rubyonrails.org/active_record_validations.html
+Rails ActiveRecord Data Types: https://michaelsoolee.com/rails-activerecord-data-types/
+Rails Command Line Reference Manual: https://guides.rubyonrails.org/command_line.html#bin-rails-generate
+
 
