@@ -11,7 +11,9 @@ Setup the container:
     $ docker-compose build
 
 Set up the databases:
+
     $ docker-compose run web rails db:create
+
 
     $ docker-compose run web rails db:migrate
 
