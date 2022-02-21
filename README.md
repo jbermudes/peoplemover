@@ -4,6 +4,8 @@
 
 Clone the repo:
 
+    $ git clone https://github.com/jbermudes/peoplemover.git
+
 Setup the container:
 
     $ docker-compose build
