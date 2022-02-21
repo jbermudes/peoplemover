@@ -1,0 +1,18 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>People</h1>
+
+<div>
+  <table id="people">
+    <% @people.each do |person| %>
+      <tr>
+        <%= render person %>
+        <td>
+          <%= link_to "Show this person", person %>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+</div>
+
+<%= link_to "New person", new_person_path %>
