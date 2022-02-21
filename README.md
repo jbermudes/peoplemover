@@ -2,9 +2,26 @@
 
 ## How to Build
 
+Clone the repo:
+
+Setup the container:
+
+    $ docker-compose build
+
+Set up the databases:
+    $ docker-compose run web rails db:create
+    $ docker-compose run web rails db:migrate
+
 ## How to Run
 
+Launch the docker container with:
+    $ docker-compose up
+
 ## How to Test
+
+Open a browser and navigate to `http://localhost:3000`
+This will take you to the Index of the People resource. From here you can
+create, read, update, and delete records as indicated by the links.
 
 ## General Approach
 
