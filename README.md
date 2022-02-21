@@ -61,6 +61,8 @@ server and database support is not currently configured.
 * as requested there is no authentication or authorization
 functionality.
 
+* There are very few precautions for SQL injection, XSS, and other attacks besides the basic protection that Rails offesr out of the box so this app is still to be considered vulnerable until a more thorough analysis and prevention is implemented.
+
 * There is practically no UI work other than the basic styling of a default
   Rails app
 
