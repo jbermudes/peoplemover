@@ -6,6 +6,10 @@ Clone the repo:
 
     $ git clone https://github.com/jbermudes/peoplemover.git
 
+Change into the project directory:
+
+    $ cd peoplemover
+
 Setup the container:
 
     $ docker-compose build
