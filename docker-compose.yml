@@ -1,10 +1,11 @@
-version "3.8"
+version: "3.8"
 
 services:
+
   web:
     build: .
     volumes:
-      - .:/code:cached
+      - .:/peoplemover:cached
 
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
 
