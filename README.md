@@ -66,10 +66,14 @@ A few assumptions were taken:
 
 ## References Used
 
-Dockerize Rails Application: https://www.codewithjason.com/dockerize-rails-application/
+Dockerize Rails Application: https://www.codewithjason.com/dockerize-rails-application/ 
+
 StackOverflow "Cannot connect to Docker Daemon on macOS": https://stackoverflow.com/questions/44084846/cannot-connect-to-the-docker-daemon-on-macos
+
 Rails ActiveRecord Validations: https://guides.rubyonrails.org/active_record_validations.html
+
 Rails ActiveRecord Data Types: https://michaelsoolee.com/rails-activerecord-data-types/
+
 Rails Command Line Reference Manual: https://guides.rubyonrails.org/command_line.html#bin-rails-generate
 
 
